@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ws_operation">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
     <sys_ws_operation action="INSERT_OR_UPDATE">
         <active>true</active>
         <consumes>application/json,application/xml,text/xml,text/plain</consumes>
@@ -15,6 +14,7 @@
 				 'unsubscribed': '2'};
 	var table = {'subscription': 'x_snc_aws_sns_subscription',
 				 'handler': 'x_snc_aws_sns_handler',
+				 'bundles': 'x_snc_aws_sns_bundles',
 				 'subscriptionToHandler': 'x_snc_aws_sns_m2m_handlers_subscriptions'};
 	
 	// Primary logic
@@ -57,6 +57,27 @@
 			subscriptionGr.update();
 		}
 		
+		var bundles = new GlideRecord(table.bundles);
+		bundles.addQuery("region", message.region);
+		bundles.query();
+		bundles.deleteMultiple();
+		
+		var Bundles = message.Bundles;
+		Bundles.forEach(function (thisone) {
+			var bundle = new GlideRecord(table.bundles);
+			bundle.initialize();
+			bundle.region = message.region;
+			bundle.bundleid = thisone.BundleId;
+			bundle.name = thisone.Name;
+			bundle.owner = thisone.Owner;
+			bundle.description = thisone.Description;
+			bundle.compute_type = thisone.ComputeType.Name;
+			bundle.user_storage = thisone.UserStorage.Capacity;
+			bundle.last_updated = thisone.LastUpdatedTime;
+			bundle.root_storage = thisone.RootStorage.Capacity;
+			bundle.insert();
+		});
+		
 		var subToHandlerGr = new GlideRecord(table.subscriptionToHandler);
 		subToHandlerGr.addQuery('subscription', subscriptionGr.sys_id);
 		subToHandlerGr.addQuery('active', true);
@@ -89,19 +110,20 @@
         <request_example/>
         <requires_acl_authorization>true</requires_acl_authorization>
         <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>false</requires_snc_internal_role>
         <short_description/>
         <sys_class_name>sys_ws_operation</sys_class_name>
         <sys_created_by>ben.yukich</sys_created_by>
         <sys_created_on>2018-05-04 17:05:56</sys_created_on>
         <sys_id>fc7ec13213791f006b9054c32244b06b</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>notification</sys_name>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name>sys_ws_operation_fc7ec13213791f006b9054c32244b06b</sys_update_name>
-        <sys_updated_by>ben.yukich</sys_updated_by>
-        <sys_updated_on>2018-05-07 01:06:22</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-31 10:29:22</sys_updated_on>
         <web_service_definition display_value="AWS SNS">61dd49fe13391f006b9054c32244b054</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

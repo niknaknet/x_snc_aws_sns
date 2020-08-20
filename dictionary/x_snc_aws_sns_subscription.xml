@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Subscription" max_length="40" name="x_snc_aws_sns_subscription" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Subscription" max_length="40" name="x_snc_aws_sns_subscription" sizeclass="2" type="collection">
         <element label="Name" max_length="256" name="name" type="string"/>
         <element choice="1" label="State" max_length="40" name="state" read_only="true" type="choice">
             <choice>
-                <element label="Pending Confirmation" sequence="0" value="0"/>
-                <element label="Subscribed" sequence="1" value="1"/>
-                <element label="Unsubscribed" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Pending Confirmation" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Subscribed" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Unsubscribed" sequence="2" value="2"/>
             </choice>
         </element>
         <element label="Subscribe URL" max_length="1024" name="subscribe_url" type="url"/>

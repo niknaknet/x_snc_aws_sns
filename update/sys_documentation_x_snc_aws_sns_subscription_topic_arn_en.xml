@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="topic_arn" label="Topic ARN" language="en" table="x_snc_aws_sns_subscription">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>topic_arn</element>
@@ -12,7 +11,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>ben.yukich</sys_created_by>
             <sys_created_on>2018-05-05 23:24:37</sys_created_on>
-            <sys_id>47df63cf13bd5f006b9054c32244b0e5</sys_id>
+            <sys_id>f9e6580e071e901034e4fea89c1ed0e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Topic ARN</sys_name>
             <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="AWS SNS">1bde6f4f13bd5f006b9054c32244b05e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>the bundles understood by the system</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>bundles</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_aws_sns_bundles</name>
+        <order>250</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_aws_sns.admin,user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-30 17:58:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36bf398e0752d01034e4fea89c1ed0de</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>bundles</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name>sys_app_module_36bf398e0752d01034e4fea89c1ed0de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-30 18:02:57</sys_updated_on>
+        <timeline_page/>
+        <title>bundles</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

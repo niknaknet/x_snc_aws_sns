@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="state" table="x_snc_aws_sns_subscription" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Confirmation</label>
+            <language>en</language>
+            <name>x_snc_aws_sns_subscription</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 10:18:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71e6580e071e901034e4fea89c1ed0f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 10:18:48</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Subscribed</label>
+            <language>en</language>
+            <name>x_snc_aws_sns_subscription</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 10:18:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1e6580e071e901034e4fea89c1ed0f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 10:18:48</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unsubscribed</label>
+            <language>en</language>
+            <name>x_snc_aws_sns_subscription</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 10:18:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1e6580e071e901034e4fea89c1ed0f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 10:18:48</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_snc_aws_sns_subscription</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 10:18:48</sys_created_on>
+            <sys_id>bde6980e071e901034e4fea89c1ed003</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+            <sys_update_name>sys_choice_x_snc_aws_sns_subscription_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 10:18:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</application>
+        <file_path/>
+        <instance_id>4b6b0da5db47c8182f68c5970596196b</instance_id>
+        <instance_name>dev101171</instance_name>
+        <name>sys_choice_x_snc_aws_sns_subscription_state</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="state" table="x_snc_aws_sns_subscription" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Pending Confirmation</label><language>en</language><name>x_snc_aws_sns_subscription</name><sequence>0</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-30 10:18:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>71e6580e071e901034e4fea89c1ed0f7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-30 10:18:48</sys_updated_on><value>0</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Subscribed</label><language>en</language><name>x_snc_aws_sns_subscription</name><sequence>1</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-30 10:18:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b1e6580e071e901034e4fea89c1ed0f7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-30 10:18:48</sys_updated_on><value>1</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Unsubscribed</label><language>en</language><name>x_snc_aws_sns_subscription</name><sequence>2</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-30 10:18:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f1e6580e071e901034e4fea89c1ed0f7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-30 10:18:48</sys_updated_on><value>2</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>state</element><name>x_snc_aws_sns_subscription</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-30 10:18:48</sys_created_on><sys_id>bde6980e071e901034e4fea89c1ed003</sys_id><sys_mod_count>0</sys_mod_count><sys_name>state</sys_name><sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package><sys_policy/><sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope><sys_update_name>sys_choice_x_snc_aws_sns_subscription_state</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-30 10:18:48</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-60895346</payload_hash>
+        <record_name>Subscription.State</record_name>
+        <reverted_from/>
+        <source>7a7992130702101034e4fea89c1ed0ca</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-07-22 06:46:00</sys_created_on>
+        <sys_id>1be6d80e071e901034e4fea89c1ed0ba</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>173754590400000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Choice list</type>
+        <update_guid>d7e6d80e301e90109c4d7427972cd9ba</update_guid>
+        <update_guid_history>d7e6d80e301e90109c4d7427972cd9ba:-60895346</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-30 10:18:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>bde6980e071e901034e4fea89c1ed003</sys_id>
+        <sys_metadata>bde6980e071e901034e4fea89c1ed003</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_scope_delete display_value="">378c22e3814c44ecbc024f54246ab810</sys_scope_delete>
+        <sys_update_name>sys_choice_x_snc_aws_sns_subscription_state</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_snc_aws_sns_subscription_state">1be6d80e071e901034e4fea89c1ed0ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-30 10:18:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

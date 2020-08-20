@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="request" max_length="40" name="x_snc_aws_sns_request" sizeclass="1" type="collection">
+        <element label="request" max_length="5000" name="request" type="string"/>
+    </element>
+</database>

@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_aws_sns_handler" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_snc_aws_sns_handler" element="NULL" name="x_snc_aws_sns_handler" parent="NULL" relationship="NULL" sys_domain="global" view="6c470370130303006b9054c32244b09e">6a2b85671371df006b9054c32244b03a</list_id>
+            <list_id display_value="x_snc_aws_sns_handler" element="NULL" name="x_snc_aws_sns_handler" parent="NULL" relationship="NULL" sys_domain="global" view="c76a11620702101034e4fea89c1ed06c">6a2b85671371df006b9054c32244b03a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -41,7 +40,7 @@
             <sys_updated_by>ben.yukich</sys_updated_by>
             <sys_updated_on>2018-05-07 00:42:00</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">6c470370130303006b9054c32244b09e</view>
+            <view display_value="Reference List" name="sys_ref_list">c76a11620702101034e4fea89c1ed06c</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

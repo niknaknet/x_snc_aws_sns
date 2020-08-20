@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>request</name>
+        <order>100</order>
+        <roles>x_snc_aws_sns.request_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-13 10:30:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6acf102e072e101034e4fea89c1ed025</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name>sys_app_application_6acf102e072e101034e4fea89c1ed025</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-13 10:59:15</sys_updated_on>
+        <title>request</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</application>
+        <file_path/>
+        <instance_id>4b6b0da5db47c8182f68c5970596196b</instance_id>
+        <instance_name>dev101171</instance_name>
+        <name>sys_app_application_6acf102e072e101034e4fea89c1ed025</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>request</name><order>100</order><roles>x_snc_aws_sns.request_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-13 10:30:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6acf102e072e101034e4fea89c1ed025</sys_id><sys_mod_count>2</sys_mod_count><sys_name>request</sys_name><sys_overrides/><sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package><sys_policy/><sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope><sys_update_name>sys_app_application_6acf102e072e101034e4fea89c1ed025</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-13 10:59:15</sys_updated_on><title>request</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1330353345</payload_hash>
+        <record_name>request</record_name>
+        <reverted_from/>
+        <source>47075042075a901034e4fea89c1ed01f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-13 10:59:15</sys_created_on>
+        <sys_id>cf662862076e101034e4fea89c1ed07e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173e77956e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-13 10:59:15</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>0b662862516e101068b3ba3e0dc4147e</update_guid>
+        <update_guid_history>0b662862516e101068b3ba3e0dc4147e:-1330353345,0d662462a26e1010bf32ba336eb3c23f:1591580672,26cf102ec02e10109cbde3720e55bd28:-1330353345</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="request">f1d6ec62076e101034e4fea89c1ed0d5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-13 11:01:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>8809f83582cc4aa9b9b6c5fdc9ee2651</sys_id>
+        <sys_metadata>6acf102e072e101034e4fea89c1ed025</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request</sys_name>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_scope_delete display_value="">378c22e3814c44ecbc024f54246ab810</sys_scope_delete>
+        <sys_update_name>sys_app_application_6acf102e072e101034e4fea89c1ed025</sys_update_name>
+        <sys_update_version display_value="sys_app_application_6acf102e072e101034e4fea89c1ed025">cf662862076e101034e4fea89c1ed07e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-13 11:01:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

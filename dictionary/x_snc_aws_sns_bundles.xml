@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bundles" max_length="40" name="x_snc_aws_sns_bundles" sizeclass="90" type="collection">
+        <element label="BundleId" max_length="40" name="bundleid" type="string"/>
+        <element label="Compute type" max_length="40" name="compute_type" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Last Updated" max_length="40" name="last_updated" type="glide_date_time"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Owner" max_length="40" name="owner" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="User storage" max_length="40" name="user_storage" type="string"/>
+    </element>
+</database>
